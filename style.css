@@ -1,0 +1,38 @@
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid rgb(196, 137, 11);
+    border-top: 20px solid rebeccapurple;
+    margin: auto;
+    animation: spinAnimated 1s ease-out 0s infinite normal;
+
+}
+
+
+@keyframes spinAnimated {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.animation  {
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    color: white;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+.animation:hover {
+    background-color: olivedrab;
+    color: black;
+    font-size: 20px;
+}
